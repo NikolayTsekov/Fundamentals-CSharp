@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             int guestCount = int.Parse(Console.ReadLine());
-            List<string> gueatList = new List<string>();
+            List<string> guestList = new List<string>();
 
             for (int i = 0; i < guestCount; i++)
             {
@@ -13,22 +13,22 @@
                 string name = argument[0]; 
                 if (argument[2] == "going!")
                 {
-                    if (gueatList.Contains(name)) // Exists(e=>e==name) // FindIndex(e=>e==name) != -1
+                    if (guestList.Contains(name)) // Exists(e=>e==name) // FindIndex(e=>e==name) != -1
                     {
                         Console.WriteLine($"{name} is already in the list!");
                     }
                     else
                     {
-                        gueatList.Add(name);
+                        guestList.Add(name);
 
                     }
 
                 }
                 else if (argument[2] == "not")
                 {
-                    if (gueatList.Contains(name))
+                    if (guestList.Contains(name))
                     {
-                        gueatList.Remove(name);
+                        guestList.Remove(name);
                     }
                     else
                     {
@@ -36,7 +36,7 @@
                     }
                 }
             }
-            foreach (string guest in gueatList)
+            foreach (string guest in guestList)
             {
                 Console.WriteLine(guest);
             }
