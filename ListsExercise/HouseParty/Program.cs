@@ -4,10 +4,10 @@
     {
         static void Main(string[] args)
         {
-            int gueatsCount = int.Parse(Console.ReadLine());
+            int guestCount = int.Parse(Console.ReadLine());
             List<string> gueatList = new List<string>();
 
-            for (int i = 0; i < gueatsCount; i++)
+            for (int i = 0; i < guestCount; i++)
             {
                 string[] argument = Console.ReadLine().Split();
                 string name = argument[0]; 
