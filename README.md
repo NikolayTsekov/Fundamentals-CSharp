@@ -1,1 +1,1 @@
-# NewRepo
+"Programing Fundamentals" course extends the previously gained basic coding skills from the “Programming Basics” course at the Software University and adds additional knowledge and practical programming skills.
