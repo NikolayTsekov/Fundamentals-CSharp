@@ -68,9 +68,9 @@ namespace Songs
             }
             public Song(string typeList, string name, string time)
             {
-                this.TypeList = typeList;
-                this.Name = name;
-                this.Time = time;
+                TypeList = typeList;
+                Name = name;
+                Time = time;
             }
 
             public string TypeList { get; set; }
